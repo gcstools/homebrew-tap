@@ -1,22 +1,22 @@
 class Arbor < Formula
   desc "Manage Git worktree setup workflows"
   homepage "https://github.com/gcstools/arbor"
-  version "arbor-v0.2.0"
+  version "arbor-v0.2.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/gcstools/arbor/releases/download/arbor-v0.2.0/arbor_arbor-v0.2.0_darwin_arm64.tar.gz"
-      sha256 "7459bcbcb637bfc3a5d19235bbe5225b00d8fbc6e9467097c6e0a190f7244589"
+      url "https://github.com/gcstools/arbor/releases/download/arbor-v0.2.1/arbor_arbor-v0.2.1_darwin_arm64.tar.gz"
+      sha256 "3705b9bcf337d8f2d0192cd5577af33faa23381dc3c360facb9bc4014ccaa203"
     else
-      url "https://github.com/gcstools/arbor/releases/download/arbor-v0.2.0/arbor_arbor-v0.2.0_darwin_amd64.tar.gz"
-      sha256 "7b6e4eab05a837879f8ada13e968822eb706e27c9c97bab9b0a7da75e33bc74a"
+      url "https://github.com/gcstools/arbor/releases/download/arbor-v0.2.1/arbor_arbor-v0.2.1_darwin_amd64.tar.gz"
+      sha256 "81d61a029d225d19201b33f17bfddac1ba16527c06bcbfeee520f41234e2c13b"
     end
   end
 
   on_linux do
-    url "https://github.com/gcstools/arbor/releases/download/arbor-v0.2.0/arbor_arbor-v0.2.0_linux_amd64.tar.gz"
-    sha256 "8cdc5acc35ae35085417ae8925f91325b7741e165aabb94b5b43e42072de0d94"
+    url "https://github.com/gcstools/arbor/releases/download/arbor-v0.2.1/arbor_arbor-v0.2.1_linux_amd64.tar.gz"
+    sha256 "53a5a40902bbc70c4251762bfd54110a190ee9b906dea1f7f7fa1a48bb8895fd"
   end
 
   def install
